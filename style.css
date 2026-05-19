@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial;
+  background: #f0f0f0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  background: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid gray;
+}
+
+.btn-logout,
+.btn-back,
+.btn-hapus,
+.btn-selesai {
+  background: #333;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-hapus {
+  background: red;
+}
+.btn-selesai {
+  background: green;
+}
+.btn-back {
+  background: gray;
+}
+
+.menu-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 10px;
+  display: block;
+  text-decoration: none;
+  color: black;
+  border: 1px solid gray;
+}
+
+.form-card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid gray;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+button {
+  background: green;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid gray;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background: #ddd;
+}
+
+.status.proses {
+  color: orange;
+}
+.status.selesai {
+  color: green;
+}
