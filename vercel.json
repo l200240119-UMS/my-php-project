@@ -4,6 +4,7 @@
   },
   "routes": [
     { "src": "/(css|js)/(.*)", "dest": "/$1/$2" },
+    { "src": "/$", "dest": "/index.php" },
     { "src": "/(.*)", "dest": "/$1" }
   ]
 }
