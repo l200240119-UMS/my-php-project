@@ -2,7 +2,7 @@
 require_once 'config.php';
 
 if(!isset($_SESSION['username'])) {
-    header("Location: login.php");
+    header("Location: index.php");
     exit();
 }
 ?>
@@ -19,7 +19,7 @@ if(!isset($_SESSION['username'])) {
     transform: scale(0.98);
 }
 
-}
+
 </style>
 <body>
     <div class="container">
